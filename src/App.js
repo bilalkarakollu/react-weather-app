@@ -1,14 +1,9 @@
-import './App.css';
+import Weather from './components/Weather';
 
 function App() {
-
-  const handle = () => {
-    alert(process.env.REACT_APP_API_ENDPOINT)
-  }
-
   return (
     <div className="App">
-      <button onClick={() => handle()}>asdas</button>
+      <Weather/>
     </div>
   );
 }
