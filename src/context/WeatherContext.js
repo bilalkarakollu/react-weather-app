@@ -14,7 +14,7 @@ export const WeatherProvider = ({ children }) => {
         if (navigator.geolocation) {
             navigator.geolocation.getCurrentPosition(showPosition);
         } else {
-            setCity(Cities[0])
+            setCity(Cities[33])
         }
     }, [])
 
